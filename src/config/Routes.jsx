@@ -7,8 +7,8 @@ import ChatPage from "../Components/chatPage";
 const AppRoutes=()=>{
     return (
         <Routes>
-        <Route path="/"element={<App/>}/>
-        <Route path="/chat"element={<ChatPage/>}/>
+        <Route path="FRONT-CHAT/"element={<App/>}/>
+        <Route path="FRONT-CHAT/chat"element={<ChatPage/>}/>
       </Routes>
     );
 };
