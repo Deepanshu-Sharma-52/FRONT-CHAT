@@ -35,7 +35,7 @@ const JoinCreateChat=()=>{
                 setCurrentUser(detail.userName);
                 setRoomId(room.roomId);
                 setConnected(true);
-                navigate('FRONT-CHAT/chat');
+                navigate('/chat');
             } catch (error) {
                 if(error.status==400){
                     toast.error(error.response.data);
@@ -60,7 +60,7 @@ const JoinCreateChat=()=>{
                 setCurrentUser(detail.userName);
                 setRoomId(response.roomId);
                 setConnected(true);
-                navigate('FRONT-CHAT/chat');
+                navigate('/chat');
             } catch(error){
                 console.log(error);
                 if(error.status==400){

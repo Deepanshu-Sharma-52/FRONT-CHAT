@@ -8,7 +8,7 @@ const AppRoutes=()=>{
     return (
         <Routes>
         <Route path="FRONT-CHAT/"element={<App/>}/>
-        <Route path="FRONT-CHAT/chat"element={<ChatPage/>}/>
+        <Route path="/chat"element={<ChatPage/>}/>
       </Routes>
     );
 };
